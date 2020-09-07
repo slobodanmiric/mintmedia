@@ -160,6 +160,9 @@ kontakt
     margin-top: -120px;
     margin-bottom: 50px;
 }
-
+.forma .btn:hover {
+    background: var(--bela);
+    color: var(--tamnoSiva);
+}
 
 
