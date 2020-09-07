@@ -40,6 +40,13 @@ h1,h2,h3,h4,h5, h6 {
     background: linear-gradient(to left, var(--tamnoZelena), var(--svetloZelena));
     margin: 30px auto 50px auto;
 }
+a {
+    transition: var(--transition);
+    color: var(--tamnoZelena);
+}
+a:hover {
+    color: var(--tamnoSiva);
+}
 /****************
 nav
 ****************/
@@ -56,6 +63,26 @@ nav.bg-light {
 .nav-link:hover {
     color: var(--srednjeZelena) !Important;
     transition: var(--transition);
+}
+/****************
+footer
+****************/
+footer {
+    background: var(--srednjeZelena);
+    line-height: 1.8;
+}
+footer h4 {
+    background: var(--bela);
+    display: inline-block;
+    padding: 5px 30px;
+    margin-bottom: 30px;
+    color: var(--tamnoSiva);
+}
+footer a {
+    color: var(--bela);
+}
+footer .row:last-child {
+    border-top: 1px solid white;
 }
 /****************
 header
