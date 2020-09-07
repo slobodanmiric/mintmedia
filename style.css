@@ -141,9 +141,25 @@ blog
 .widget ul {
     list-style: none;
 }
-
-
-
+/****************
+kontakt
+****************/
+.kontakt {
+    background-image: url(img/header-kontakt.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+.kontakt h1 {
+    background: rgba(32, 150, 119,.7);
+    padding: 30px;
+}
+.forma {
+    background: var(--srednjeZelena);
+    padding: 50px;
+    margin-top: -120px;
+    margin-bottom: 50px;
+}
 
 
 
