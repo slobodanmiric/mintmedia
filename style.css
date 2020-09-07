@@ -40,6 +40,23 @@ nav.bg-light {
     color: var(--srednjeZelena) !Important;
     transition: var(--transition);
 }
+/****************
+header
+****************/
+header {
+    background-image: url(img/header.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+/****************
+uvod
+****************/
+.uvod {
+    background: var(--srednjeZelena);
+    padding: 40px;
+    margin-top: -120px;
+}
 
 
 
